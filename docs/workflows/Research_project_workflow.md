@@ -1,6 +1,8 @@
-# TENNIS_LEVEL AI 工作流说明
+# barr AI 工作流说明
 
-这份文件用于直接指导 GitHub Copilot / Codex（`gpt-5.3-codex medium`）在你的 `TENNIS_LEVEL` 仓库里完成以下事情：
+> 说明：本文档最初参考 tennislevel 模板整理，但当前执行对象以 barr 项目为核心，所有路径与流程以 barr 仓库现状为准。
+
+这份文件用于直接指导 GitHub Copilot / Codex（`gpt-5.3-codex medium`）在你的 `barr` 仓库里完成以下事情：
 
 1. 规范知识文档目录
 2. 每天自动整理当天进展并生成 `progress.md`
@@ -13,14 +15,14 @@
 # 一、推荐最终目录结构
 
 ```text
-TENNIS_LEVEL/
+barr/
   .claude/
   .history/
   .vscode/
-  src/
-  public/
+  barr/
+  configs/
   scripts/
-  supabase/
+  outputs/
   docs/
     index.md
     progress/
@@ -189,7 +191,7 @@ docs/prompts/DAILY_PROGRESS_PROMPT.md
 
 # DAILY_PROGRESS_PROMPT
 
-你现在在 `TENNIS_LEVEL` 仓库中工作。请自动整理“今天”的项目进展，并生成或更新当天的 daily progress 文档。
+你现在在 `barr` 仓库中工作。请自动整理“今天”的项目进展，并生成或更新当天的 daily progress 文档。
 
 ## 目标
 
@@ -215,10 +217,10 @@ docs/prompts/DAILY_PROGRESS_PROMPT.md
 
 优先检查以下内容：
 
-- `src/`
-- `public/`
+- `barr/`
+- `configs/`
 - `scripts/`
-- `supabase/`
+- `outputs/`
 - `docs/`
 - 根目录中的重要 Markdown 文档
 - 与产品方向、研究、实验、数据结构、部署、诊断能力有关的文件
@@ -313,7 +315,7 @@ docs/prompts/ORGANIZE.md
 
 # ORGANIZE
 
-你现在在 `TENNIS_LEVEL` 仓库中工作。请把当前仓库中的项目文档整理成一个适合 Obsidian + VS Code + AI 协同的结构，但不要误伤代码文件。
+你现在在 `barr` 仓库中工作。请把当前仓库中的项目文档整理成一个适合 Obsidian + VS Code + AI 协同的结构，但不要误伤代码文件。
 
 ## 目标
 
@@ -379,10 +381,10 @@ docs/prompts/
 
 以下目录和文件不要因为“整理文档”被大范围改写：
 
-- `src/`
-- `public/`
+- `barr/`
+- `configs/`
 - `scripts/`
-- `supabase/`
+- `outputs/`
 - 配置文件
 - 依赖文件
 - 构建产物
@@ -414,7 +416,7 @@ docs/prompts/WEEKLY_REVIEW_PROMPT.md
 
 # WEEKLY_REVIEW_PROMPT
 
-你现在在 `TENNIS_LEVEL` 仓库中工作。请基于本周所有 daily progress，生成一份周总结。
+你现在在 `barr` 仓库中工作。请基于本周所有 daily progress，生成一份周总结。
 
 ## 目标
 
