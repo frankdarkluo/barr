@@ -1,0 +1,34 @@
+{
+  "condition": "redirect",
+  "score_name": "first_transition_index",
+  "ambig_biased_base": 248,
+  "disambig_correct_base": 1773,
+  "target_trigger_min": 0.1,
+  "target_trigger_max": 0.2,
+  "best_net_benefit": {
+    "threshold": 218,
+    "condition": "redirect",
+    "trigger_count": 348,
+    "trigger_rate": 0.09456521739130434,
+    "ambig_biased_base": 248,
+    "ambig_corrected": 90,
+    "ambig_correction_rate": 0.3629032258064516,
+    "disambig_correct_base": 1773,
+    "disambig_harmed": 75,
+    "disambig_harm_rate": 0.04230118443316413,
+    "net_benefit": 15
+  },
+  "best_in_band": {
+    "threshold": 212,
+    "condition": "redirect",
+    "trigger_count": 399,
+    "trigger_rate": 0.10842391304347826,
+    "ambig_biased_base": 248,
+    "ambig_corrected": 97,
+    "ambig_correction_rate": 0.3911290322580645,
+    "disambig_correct_base": 1773,
+    "disambig_harmed": 84,
+    "disambig_harm_rate": 0.047377326565143825,
+    "net_benefit": 13
+  }
+}

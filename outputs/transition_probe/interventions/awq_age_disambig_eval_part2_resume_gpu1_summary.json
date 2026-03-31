@@ -1,0 +1,28 @@
+{
+  "subset": "all",
+  "n_selected_inputs": 163,
+  "conditions": [
+    {
+      "condition": "redirect",
+      "n": 163,
+      "corrected_to_unknown": 88,
+      "correction_rate": 0.5398773006134969,
+      "avg_generated_tokens": 106.8159509202454,
+      "labels": {
+        "counter_biased": 75,
+        "correct": 88
+      }
+    },
+    {
+      "condition": "always_reflect",
+      "n": 163,
+      "corrected_to_unknown": 137,
+      "correction_rate": 0.8404907975460123,
+      "avg_generated_tokens": 11.0,
+      "labels": {
+        "counter_biased": 26,
+        "correct": 137
+      }
+    }
+  ]
+}

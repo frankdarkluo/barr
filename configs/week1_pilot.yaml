@@ -1,0 +1,31 @@
+paths:
+  data_root: data
+  manifest_path: artifacts/manifests/week1_pilot.jsonl
+  task_metrics_path: results/task_metrics.csv
+  task_metrics_by_group_path: results/task_metrics_by_group.csv
+  fairness_metrics_path: results/fairness_metrics.csv
+  group_gap_path: results/group_gap.csv
+  parse_answers_path: results/parsed_answers.csv
+  reasoning_features_path: results/reasoning_dynamics.csv
+  counterfactual_gap_path: results/counterfactual_consistency.csv
+  week1_summary_path: reports/week1_summary.md
+  week1_cases_path: reports/case_studies.jsonl
+  week1_main_table_path: results/main_table.csv
+  week1_per_language_table_path: results/per_language_table.csv
+  week1_case_table_path: tables/week1_case_studies.md
+
+experiment:
+  seed: 7
+  sample_size_per_language: 200
+  dataset_names:
+    - mbbq
+    - openmbbq
+
+inference:
+  seed: 7
+  temperature: 0.0
+  top_p: 1.0
+  max_new_tokens: 1024
+  batch_size: 32
+  tensor_parallel_size: 1
+  cache_dir: /home/gluo/models

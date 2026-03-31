@@ -1,0 +1,59 @@
+{
+  "subset": "all",
+  "n_selected_inputs": 10,
+  "conditions": [
+    {
+      "condition": "vanilla",
+      "n": 10,
+      "corrected_to_unknown": 10,
+      "correction_rate": 1.0,
+      "avg_generated_tokens": 0.0,
+      "labels": {
+        "correct": 10
+      }
+    },
+    {
+      "condition": "exit",
+      "n": 10,
+      "corrected_to_unknown": 10,
+      "correction_rate": 1.0,
+      "avg_generated_tokens": 27.4,
+      "labels": {
+        "correct": 10
+      }
+    },
+    {
+      "condition": "random_redirect",
+      "n": 10,
+      "corrected_to_unknown": 5,
+      "correction_rate": 0.5,
+      "avg_generated_tokens": 100.0,
+      "labels": {
+        "counter_biased": 5,
+        "correct": 5
+      }
+    },
+    {
+      "condition": "redirect",
+      "n": 10,
+      "corrected_to_unknown": 5,
+      "correction_rate": 0.5,
+      "avg_generated_tokens": 170.7,
+      "labels": {
+        "counter_biased": 5,
+        "correct": 5
+      }
+    },
+    {
+      "condition": "always_reflect",
+      "n": 10,
+      "corrected_to_unknown": 9,
+      "correction_rate": 0.9,
+      "avg_generated_tokens": 21.1,
+      "labels": {
+        "correct": 9,
+        "counter_biased": 1
+      }
+    }
+  ]
+}

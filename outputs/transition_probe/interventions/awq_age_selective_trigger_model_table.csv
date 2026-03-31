@@ -1,0 +1,6 @@
+model,test_auc_risk_positive,threshold,trigger_count,trigger_rate,ambig_biased_base,ambig_corrected,ambig_correction_rate,disambig_correct_base,disambig_harmed,disambig_harm_rate,net_benefit
+position_only_lr,0.6608772282087321,0.6502035204874549,94,0.12771739130434784,50,11,0.22,361,19,0.05263157894736842,-8
+text_level_lr,0.9603774847734422,0.6669480779344041,83,0.11277173913043478,50,40,0.8,361,8,0.0221606648199446,32
+vanilla,,,,0.0,50,0,0.0,361,0,0.0,0
+blanket_redirect,,,,1.0,50,50,1.0,361,156,0.43213296398891965,-106
+always_reflect,,,,1.0,50,44,0.88,361,28,0.07756232686980609,16

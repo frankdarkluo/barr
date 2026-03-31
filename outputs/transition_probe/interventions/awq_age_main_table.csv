@@ -1,0 +1,9 @@
+split,condition,focus,n_base,corrected_to_correct,corrected_rate,escaped_biased,escaped_rate,avg_generated_tokens_on_base,harmed,harm_rate,harmed_to_biased,harmed_to_biased_rate
+ambig,always_reflect,biased_trajectories,248,195,0.7862903225806451,195,0.7862903225806451,11,,,,
+ambig,exit,biased_trajectories,248,33,0.13306451612903225,39,0.15725806451612903,20.032258064516128,,,,
+ambig,random_redirect,biased_trajectories,248,248,1.0,248,1.0,99.7741935483871,,,,
+ambig,redirect,biased_trajectories,248,247,0.9959677419354839,247,0.9959677419354839,93.64112903225806,,,,
+disambig,always_reflect,originally_correct,1773,,,,,11.056965595036662,140,0.07896221094190638,1,0.0005640157924421884
+disambig,exit,originally_correct,1773,,,,,29.076142131979694,70,0.03948110547095319,15,0.008460236886632826
+disambig,random_redirect,originally_correct,1773,,,,,114.112239142696,859,0.4844895657078398,0,0.0
+disambig,redirect,originally_correct,1773,,,,,111.41116751269035,788,0.4444444444444444,0,0.0

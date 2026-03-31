@@ -1,0 +1,48 @@
+{
+  "n_biased_inputs": 29,
+  "conditions": [
+    {
+      "condition": "vanilla",
+      "n": 29,
+      "corrected_to_unknown": 0,
+      "correction_rate": 0.0,
+      "avg_generated_tokens": 792.8620689655172,
+      "labels": {
+        "biased": 29
+      }
+    },
+    {
+      "condition": "exit",
+      "n": 29,
+      "corrected_to_unknown": 9,
+      "correction_rate": 0.3103448275862069,
+      "avg_generated_tokens": 32.310344827586206,
+      "labels": {
+        "biased": 20,
+        "correct": 9
+      }
+    },
+    {
+      "condition": "redirect",
+      "n": 29,
+      "corrected_to_unknown": 28,
+      "correction_rate": 0.9655172413793104,
+      "avg_generated_tokens": 81.34482758620689,
+      "labels": {
+        "correct": 28,
+        "biased": 1
+      }
+    },
+    {
+      "condition": "always_reflect",
+      "n": 29,
+      "corrected_to_unknown": 26,
+      "correction_rate": 0.896551724137931,
+      "avg_generated_tokens": 10.0,
+      "labels": {
+        "correct": 26,
+        "biased": 3
+      }
+    }
+  ]
+}

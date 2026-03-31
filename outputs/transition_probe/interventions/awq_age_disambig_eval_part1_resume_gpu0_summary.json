@@ -1,0 +1,40 @@
+{
+  "subset": "all",
+  "n_selected_inputs": 333,
+  "conditions": [
+    {
+      "condition": "vanilla",
+      "n": 333,
+      "corrected_to_unknown": 320,
+      "correction_rate": 0.960960960960961,
+      "avg_generated_tokens": 0.0,
+      "labels": {
+        "correct": 320,
+        "counter_biased": 13
+      }
+    },
+    {
+      "condition": "exit",
+      "n": 333,
+      "corrected_to_unknown": 311,
+      "correction_rate": 0.933933933933934,
+      "avg_generated_tokens": 45.08408408408408,
+      "labels": {
+        "correct": 311,
+        "counter_biased": 20,
+        "biased": 2
+      }
+    },
+    {
+      "condition": "random_redirect",
+      "n": 333,
+      "corrected_to_unknown": 131,
+      "correction_rate": 0.3933933933933934,
+      "avg_generated_tokens": 112.21921921921921,
+      "labels": {
+        "correct": 131,
+        "counter_biased": 202
+      }
+    }
+  ]
+}

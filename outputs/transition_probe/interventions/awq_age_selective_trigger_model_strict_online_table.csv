@@ -1,0 +1,6 @@
+model,test_auc_risk_positive_all,test_auc_risk_positive_transitioned,threshold,trigger_count,trigger_rate,ambig_biased_base,ambig_corrected,ambig_correction_rate,disambig_correct_base,disambig_harmed,disambig_harm_rate,net_benefit,total_generated_tokens,avg_generated_tokens,total_token_delta_vs_vanilla,avg_token_delta_vs_vanilla
+position_only_lr,0.6608772282087321,0.6488031976341203,0.6502035204874549,94,0.12771739130434784,50,11,0.22,361,19,0.05263157894736842,-8,9456,12.847826086956522,9456,12.847826086956522
+text_level_lr,0.9049148874461772,0.9015295041818769,0.7165559323372735,64,0.08695652173913043,50,35,0.7,361,5,0.013850415512465374,30,6298,8.557065217391305,6298,8.557065217391305
+vanilla,,,,,0.0,50,0,0.0,361,0,0.0,0,0,0.0,0,0.0
+blanket_redirect,,,,,1.0,50,50,1.0,361,156,0.43213296398891965,-106,72377,98.3383152173913,72377,98.3383152173913
+always_reflect,,,,,1.0,50,44,0.88,361,28,0.07756232686980609,16,8096,11.0,8096,11.0

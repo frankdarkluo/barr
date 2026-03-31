@@ -1,0 +1,66 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.history/
+.codex/
+.codex
+*.swp
+*.swo
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Env and logs
+.venv/
+venv/
+.env
+.env.*
+*.log
+
+# Heavy model and tensor files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+
+# Raw datasets
+data/
+
+# Large root raw output
+ambig_results_original.jsonl
+
+# Artifacts: keep only manifests
+artifacts/**
+!artifacts/manifests/
+!artifacts/manifests/**
+
+# Outputs: ignore all by default
+outputs/**
+
+# Keep selected transition-probe artifacts
+!outputs/transition_probe/
+!outputs/transition_probe/sample_manifest/
+!outputs/transition_probe/sample_manifest/**
+!outputs/transition_probe/features/
+!outputs/transition_probe/features/feature_manifest.jsonl
+!outputs/transition_probe/interventions/
+!outputs/transition_probe/interventions/*.csv
+!outputs/transition_probe/interventions/*.md
+!outputs/transition_probe/interventions/*summary*.json
+
+# Keep docs and reports
+!docs/**
+!reports/**

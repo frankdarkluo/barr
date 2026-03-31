@@ -1,0 +1,29 @@
+{
+  "subset": "all",
+  "n_selected_inputs": 1840,
+  "conditions": [
+    {
+      "condition": "redirect",
+      "n": 1840,
+      "corrected_to_unknown": 993,
+      "correction_rate": 0.5396739130434782,
+      "avg_generated_tokens": 111.63695652173914,
+      "labels": {
+        "counter_biased": 847,
+        "correct": 993
+      }
+    },
+    {
+      "condition": "always_reflect",
+      "n": 1840,
+      "corrected_to_unknown": 1651,
+      "correction_rate": 0.8972826086956521,
+      "avg_generated_tokens": 11.054891304347827,
+      "labels": {
+        "correct": 1651,
+        "counter_biased": 188,
+        "biased": 1
+      }
+    }
+  ]
+}
