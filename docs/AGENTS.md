@@ -47,3 +47,7 @@ It is whether Qwen3-8B transition-point internal states can predict future biase
 - Use `/home/gluo/models` as the default model cache path.
 - For small models, use one GPU per experiment and parallelize across GPUs.
 - For larger models, allocate multiple GPUs per experiment and reduce concurrency accordingly.
+
+## Research Log Skill
+When I ask you to summarize today's experiments or generate a daily log,
+follow the rules in `docs/workflows/daily_research_log_skill.md`.
