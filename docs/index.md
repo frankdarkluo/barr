@@ -1,37 +1,52 @@
 # BARR Docs Index
 
-This folder is the Obsidian-ready documentation hub for the BARR project.
+This is the main navigation hub for the BARR documentation set.
 
-## Research Mainline
+Use [docs/README](README.md) for the structural rules and naming conventions.
 
-- [Mainline Summary](mainline/research_mainline.md)
-- [EMNLP Storyline](storyline/emnlp2026_storyline.md)
+## Start Here
 
-## Workflows
+1. [Current Pilot Scope](progress/current-pilot-scope.md)
+2. [BARR Mainline Claim](research/framing/barr-mainline.md)
+3. [EMNLP 2026 Storyline](research/framing/emnlp-2026-storyline.md)
+4. [2026-04-07 Weekly Summary](progress/weekly/2026-04-07-weekly.md)
 
-- [AGENTS](workflows/AGENTS.md)
-- [AI Collaboration Workflow](workflows/AI_COLLAB_WORKFLOW.md)
-- [Research Project Workflow](workflows/Research_project_workflow.md)
-- [Efficiency Rules](workflows/Efficiency.md)
+## Research Framing
 
-## Plans
+- [BARR Mainline Claim](research/framing/barr-mainline.md)
+- [EMNLP 2026 Storyline](research/framing/emnlp-2026-storyline.md)
+- [Stage 1 / Stage 2 Claude Handoff](research/reviews/stage1-stage2-claude-handoff.md)
 
-- [Week1 Transition Probe Plan](plans/week1_transition_probe_codex_plan.md)
-- [Week1 Thinking Mode Plan](plans/week1_qwen3_thinking_mode_plan.md)
+## Experiment Plans
 
-## Progress
+- [Week 1 Transition Probe Plan](experiments/plans/week1-transition-probe.md)
+- [Week 1 Qwen3 Thinking Mode Plan](experiments/plans/week1-qwen3-thinking-mode.md)
 
-- [Project Progress](progress/PROGRESS.md)
-- [Week1 Summary](progress/week1_summary.md)
+## Experiment Results
 
-## Results
+- [AWQ Age Selective Trigger Overview](experiments/results/age/awq-age-selective-trigger-overview.md)
+- [AWQ Age Intervention Main Table](experiments/results/age/awq-age-intervention-main-table.md)
+- [AWQ Shared Strict-Online Progress](experiments/results/shared/awq-shared-strict-online-progress.md)
 
-- [AWQ Age Main Table](results/awq_age_main_table.md)
-- [Selective Trigger Summary](results/awq_age_selective_trigger_summary.md)
-- [Selective Trigger Model Summary](results/awq_age_selective_trigger_model_summary.md)
-- [Selective Trigger Model Summary (Strict Online)](results/awq_age_selective_trigger_model_strict_online_summary.md)
+## Progress Tracking
 
-## Notes
+- [Current Pilot Scope](progress/current-pilot-scope.md)
+- [Daily Logs](progress/daily/2026-04-07.md)
+- [Weekly Summaries](progress/weekly/2026-04-07-weekly.md)
 
-- Root markdown files are preserved for compatibility with existing tooling and agent instructions.
-- The files under `docs/` are organized copies for note-taking and collaboration.
+## Engineering Workflows
+
+- [Workflow Efficiency Rules](engineering/workflows/efficiency.md)
+- [AI Collaboration Workflow](engineering/workflows/ai-collaboration-workflow.md)
+- [Research Project Workflow](engineering/workflows/research-project-workflow.md)
+- [Daily Research Log Skill](engineering/workflows/daily-research-log-skill.md)
+
+## Reserved Future Areas
+
+- [Product Docs](product/README.md)
+- [UX Docs](ux/README.md)
+
+## Historical Notes
+
+- Superseded but still useful notes live under `docs/archive/`.
+- When a note is merged into a cleaner main note, the archived source remains available for provenance.

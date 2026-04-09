@@ -17,10 +17,10 @@ Efficiency rules:
 
 ## Repo Priorities
 Read these in order when relevant:
-- [docs/workflows/Efficiency.md](/home/gluo/barr/docs/workflows/Efficiency.md)
-- [docs/progress/PROGRESS.md](/home/gluo/barr/docs/progress/PROGRESS.md)
-- [docs/plans/week1_transition_probe_codex_plan.md](/home/gluo/barr/docs/plans/week1_transition_probe_codex_plan.md)
-- [docs/storyline/emnlp2026_storyline.md](/home/gluo/barr/docs/storyline/emnlp2026_storyline.md)
+- [engineering/workflows/efficiency.md](engineering/workflows/efficiency.md)
+- [progress/current-pilot-scope.md](progress/current-pilot-scope.md)
+- [experiments/plans/week1-transition-probe.md](experiments/plans/week1-transition-probe.md)
+- [research/framing/emnlp-2026-storyline.md](research/framing/emnlp-2026-storyline.md)
 
 ## AI Collaboration Defaults
 - Codex is the default planner/executor/reporter.
@@ -50,4 +50,4 @@ It is whether Qwen3-8B transition-point internal states can predict future biase
 
 ## Research Log Skill
 When I ask you to summarize today's experiments or generate a daily log,
-follow the rules in `docs/workflows/daily_research_log_skill.md`.
+follow the rules in `engineering/workflows/daily-research-log-skill.md`.
